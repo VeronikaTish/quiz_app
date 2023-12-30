@@ -1,11 +1,13 @@
 import 'package:flutter/material.dart';
+import 'start_screen.dart';
 
 void main() {
   runApp(
-    MaterialApp(
+    const MaterialApp(
       home: Scaffold(
-        body: Container()
+        backgroundColor: const Color.fromARGB(255, 64, 16, 112),
+        body: StartScreen(),
       ),
-    )
+    ),
   );
 }
