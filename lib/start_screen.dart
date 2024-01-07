@@ -22,7 +22,7 @@ class StartScreen extends StatelessWidget {
             'Learn Flutter the fun way',
             style: GoogleFonts.lato(
               fontSize: 24,
-              color: Color.fromARGB(255, 228, 191, 249),
+              color: const Color.fromARGB(255, 228, 191, 249),
             ),
           ),
           const SizedBox(height: 40),
